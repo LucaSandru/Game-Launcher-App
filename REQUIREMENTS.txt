@@ -1,0 +1,37 @@
+1. a GUI app in Python (Tkinter library) that displays 3 interactive games:
+			- Turtle Race Game
+			- Turtle Road Game
+			- Snake Game
+2. Login page 
+- user has to login with username and password
+- if user forgot the password, he/she can get password back via Gmail (made with smtp library)
+
+3. Signup Page
+- user has to introduce username (without blank space), email (has to be a Gmail Account) and password (minimum 4 characters)
+- after completing these 3 boxes, user has to perform the 2 factor authentication (a 6 random characters will be shown via Gmail) and user has to copy-paste these characters
+
+4. Three separate user-friendly games that are working only if a user is logged-in.
+
+5. Every game has:
+- description (shown in the main menu Game)
+- "Main Menu" button that goes explicitly on the Main Menu of the project.
+- in the game: - styling the game (for a better user-experience)
+	       - Instructions ("How to Play")
+	       - the game itself
+	       - an real-time leaderboard with first 5 users
+
+6. Database (made with MySQL and shown in MySQL Workbench) - made in NF2
+- this database claim all the data of the game
+there are 3 tables:
+i) users - displays id, username, email, password and the highscore for every game
+ii) games - id of the game and the name of the game
+iii) play - play_id, id of user, username, game_id, score and date
+
+7. environment variables (for the security of the app)
+- database name
+- password of database
+- password from my Gmail (in order to use smtp library)
+
+8. 
+
+
