@@ -31,7 +31,3 @@ iii) play - play_id, id of user, username, game_id, score and date
 - database name
 - password of database
 - password from my Gmail (in order to use smtp library)
-
-8. 
-
-
